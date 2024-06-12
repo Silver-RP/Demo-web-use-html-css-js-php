@@ -1,0 +1,93 @@
+
+.details-restaurant{
+   width: 100%;
+   background-color: rgb(240, 248, 240);
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+.container-details-above{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding-top: 20px;
+}
+.container-details-info{
+    font-size: large;
+    margin-left: 60px;
+}
+
+.container-details-below{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    margin-top: 50px;
+
+}
+.menu-tab{
+    margin-left: 20px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: rgb(148, 246, 171);
+}
+.menu-tab h2{
+    margin: 10px;
+}
+.menu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.menu-content-category{
+    width: 30%;
+    padding-left: 100px;
+}
+
+.menu-content li{
+    font-size: large;
+}
+.menu-content li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-content li a:hover{
+    color: rgb(0, 177, 18);
+}
+.menu-content-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 30px;
+    padding-right: 50px;
+    width: 60%;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.menu-list .menu-item{
+    margin-bottom: 20px;
+}
+.menu-list .menu-item:hover{
+    background-color: rgb(82, 184, 92);
+    color: white;
+    padding: 5px;
+    margin-top: 1px;
+    border: 1px solid black;
+}
+.menu-list .menu-item button{
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(166, 250, 127);
+    color: black;
+}
+.menu-list .menu-item button:hover{
+    background-color: rgb(0, 177, 18);
+    color: white;
+}

@@ -1,0 +1,148 @@
+.order-details-body{
+    background-color: rgb(240, 248, 240);
+    height: 675px;
+    padding-top: 30px;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    background-color: rgb(240, 248, 240);
+}
+h2{
+    font-size: 30px;
+    margin: 0px 30px 10px 30px;
+    margin-left: 30px;
+}
+.product-image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.description span{
+    font-weight: bold;
+
+}
+.btn-add-to-cart {
+    background-color: #02bc0b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #009c37;
+}
+.btn-add-to-cart_1{ 
+    background-color: #1fc47d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.customer-reviews {
+    margin: 70px;
+}
+
+.customer-reviews h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#comment-form {
+    margin-bottom: 20px;
+}
+
+#comment {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#comments {
+    margin-top: 20px;
+}
+#comment-form button {
+    background-color: #02b54c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 16px; 
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#comment-form button:hover {
+    background-color: #027a38; /* Màu nền khi hover */
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+.comment-date {
+    font-size: 12px;
+    color: #999;
+}
+
+/* CSS cho phần tăng giảm số lượng */
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.btn-quantity {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.quantity {
+    font-size: 16px;
+    margin: 0 10px;
+}
+

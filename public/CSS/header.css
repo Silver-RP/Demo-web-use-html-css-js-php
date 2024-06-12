@@ -1,0 +1,319 @@
+
+.container-header {
+    position: relative;
+    width: 100%;
+    height: 250px; /* Điều chỉnh kích thước phù hợp */
+    overflow: hidden;
+}
+.slide-show {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.list-images {
+    display: flex;
+   transition: 0.5s;
+}
+.btns-sl:hover {
+    color: white;
+}
+.btns-sl {
+    font-size: 45px;
+    color: #999;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-left {
+    left: 0;
+}
+.btn-right {
+    right: 0;
+}
+.index-images {
+    position: absolute;
+    top: 0px;
+    left: 0.5%;
+    /* display: flex; */
+    transform: translateX(-50%);
+}
+.index-item {
+    border: 2px solid #999;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.active {
+    background-color: #999;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+    text-align: center;
+    justify-content: space-between;
+    align-items:flex-end ;
+    font-size: larger;
+}
+#welcome-ms{
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    width: auto;
+    top: 0;
+    left: 86.32%;
+    height: 30px;
+    background-color: #fcfc05;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.logo-now{
+    width: 300px;
+    height: 250px;
+    padding-bottom: 60px;
+}
+.logo-now img{
+    width: 160px;
+    height: 160px;
+    margin-left:-20px ;
+}
+
+.select-local{
+    width: 200px;
+    height: 40px;
+    margin-left:30px ;
+}
+.select-local .drop-menu{
+    width: 150px;
+    height: 30px;
+    background-color: #e1dfdf;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.select-local .drop-menu:focus{
+    outline: none;
+}
+.main-nav{
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: #e1dfdf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main-nav .nav-item{
+    margin-left: 20px;
+    color: rgb(2, 14, 13);
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 520;
+}
+.main-nav .nav-item:hover{
+    color: rgb(193, 91, 3);
+}
+.header-icon-search{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e1dfdf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header-icon-search .icon-search{
+    width: 40px;
+    height: 20px;
+}
+.user-acc{
+    width: 100px;
+    height: 40px;
+}
+.user-acc .btn-login{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #e1dfdf;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 520;
+    color: rgb(2, 14, 13);
+}
+.user-acc .btn-login:hover{
+    background-color: #d3d3d3;
+    color: rgb(193, 91, 3);
+    cursor: pointer;
+}
+.cart-icon {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    background-color: #d3d3d3;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000; /* You can change the background color */
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-dropdown{
+    width: 100px;
+    height: 40px;
+
+}
+.language-dropdown .language-dropdown-content{
+    background-color: #e1dfdf;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 16px;
+    font-weight: 520;
+    text-align: left;
+}
+.language-dropdown .language-dropdown-content a {
+    color: rgb(2, 14, 13);
+    text-decoration: none;
+}
+.language-dropdown .language-dropdown-content a:hover {
+    color: rgb(193, 91, 3);
+}
+.media{
+    display: none;
+    width: 50px;
+    height: 30px;
+    color: #e1dfdf;
+    margin-bottom: 10px;
+    background-color: #e1dfdf;
+}
+.nav_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+.nav_mobile{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+}
+.nav_mobile_nav{
+    padding: 20px;
+    border-bottom: 1px solid #e1dfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav_mobile_item{
+    text-decoration: none;
+    color: #333;
+}
+
+.media .fas {
+    margin-top: 3px;
+    font-size: 24px;
+    color: black; /* Ensure the icon is visible */
+}
+.nav_input:checked ~ .nav_overlay{
+    display: block;
+}
+.nav_input:checked ~ .nav_mobile{
+    transform: translateX(0);
+}
+.nav_mobile_language-dropdown-content{
+   display: flex;
+   flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav_mobile-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+
+}
+@media (max-width: 600px) {
+    body{
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+    .media{
+        display: block;
+    }
+    .main-nav, 
+    .user-acc, 
+    .language-dropdown{
+        display: none;
+    }
+    #welcome-ms{
+        height: 70px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 10px;
+        font-size: smaller;
+    }
+    .container-body-nowsearch{
+        padding-left: 10px !important;
+        padding-right: 10px;
+    }
+    .container-body-main {
+        flex-direction: column !important;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
